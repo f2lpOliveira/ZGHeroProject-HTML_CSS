@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      /* table,
+      td {
+        border: solid 1px black;
+      } */
+      .apresentacao,
+      form {
+        width: 80%;
+        margin: auto;
+        padding-top: 10px;
+      }
+      input,
+      select,
+      textarea {
+        border-radius: 8px;
+        border: solid 1px;
+        margin-bottom: 10px;
+        width: 300px;
+      }
+      textarea {
+        height: 100px;
+        margin-bottom: 2px;
+      }
+      .botao {
+        width: 90px;
+        height: 40px;
+        background-color: #264653;
+        color: #fff;
+        border: solid 2px black;
+      }
+      .apresentacao td {
+        line-height: 25px;
+      }
+      .apresentacao h1 {
+        font-size: 32px;
+        line-height: 0;
+        padding-top: 20px;
+      }
+      .apresentacao h3 {
+        font-size: 18px;
+        line-height: 0;
+      }
+      table pre {
+        margin-left: -65px;
+        margin-bottom: 2px;
+      }
+      label {
+        display: block;
+      }
+      hr {
+        margin-top: 15px;
+        width: 80%;
+        color: gray;
+      }
+      section {
+        width: 80%;
+        margin: auto;
+        line-height: 0.4;
+        padding: 5px 0px 20px;
+      }
+    </style>
+    <title>Contato</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <table>
+          <tr>
+            <td rowspan="2">
+              <img
+                src="https://avatars.githubusercontent.com/u/106175578?v=4"
+                alt="Foto do Perfil" />
+            </td>
+            <td id="titulo-header"><h1>Fellipe Freire de Oliveira</h1></td>
+          </tr>
+          <tr>
+            <td id="subtitulo-header">
+              <p>&lsaquo;Software Engineer&rsaquo;</p>
+            </td>
+          </tr>
+        </table>
+      </header>
+      <nav>
+        <table>
+          <tr>
+            <td><a href="./index.html"> Principal</a></td>
+            <td><a href="./quemsou.html"> Quem Sou</a></td>
+            <td><a href="./projetos.html"> Projetos</a></td>
+            <td>
+              <a href="contato.html" class="pagina-selecionada">Contato</a>
+            </td>
+          </tr>
+        </table>
+      </nav>
+      <table class="apresentacao">
+        <tr>
+          <td>
+            <h1>Entre em contato!</h1>
+            <pre>
+              Preencha todos os campos do formulário a seguir e em até 48h lhe responderei.
+              Será um prazer lhe atender!
+            </pre>
+          </td>
+        </tr>
+      </table>
+      <form>
+        <table>
+          <tr>
+            <td>
+              <label>Assunto</label>
+              <select>
+                <option>Selecione o assunto</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label>Nome</label
+              ><input type="text" placeholder="Beltrano de Tal" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label>E-mail</label
+              ><input type="email" placeholder="beltrano@email.com" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label>Telefone</label
+              ><input type="tel" placeholder="(27) 99999-9999" />
+            </td>
+          </tr>
+          <tr>
+            <td><label>Mensagem</label><textarea></textarea></td>
+          </tr>
+          <tr>
+            <td><input type="submit" value="Enviar" class="botao" /></td>
+          </tr>
+        </table>
+      </form>
+      <hr />
+      <tr>
+        <section>
+          <h3>Outras formas de contato:</h3>
+          <p>Residente em Rio de Janeiro/RJ</p>
+          <a href="#">contato@email.com </a>
+          <p>(27) 99999-9999</p>
+          <a href="https://www.linkedin.com/in/f2lp-oliveira/">LinkedIn</a>
+        </section>
+        <footer>
+          <p style="margin-bottom: -10px; padding-top: 20px">
+            Copyright &copy; 2024
+          </p>
+          <p style="padding-bottom: 20px">
+            <img src="./img/ifes.png" alt="Logo" />
+          </p>
+        </footer>
+      </tr>
+    </main>
+  </body>
+</html>

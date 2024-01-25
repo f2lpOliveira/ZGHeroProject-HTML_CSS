@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Open+Sans&display=swap");
+
+* {
+  font-family: "Open Sans";
+  font-size: 18px;
+}
+
+/* --------------------Cabeçalho-------------------- */
+
+header {
+  background-image: linear-gradient(#2a9d8f, #264653);
+  width: 100%;
+}
+header table {
+  margin-left: 200px;
+}
+header img {
+  border-radius: 100%;
+  width: 140px;
+  padding: 20px 10px;
+}
+#titulo-header h1 {
+  font-size: 46px;
+  padding-top: 30px;
+  margin-bottom: -20px;
+  color: #fff;
+}
+#subtitulo-header p {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 24px;
+  padding-bottom: 30px;
+  color: #fff;
+}
+nav table {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  table-layout: fixed;
+  padding: 30px 0px 15px;
+}
+nav a {
+  font-family: "Caveat";
+  font-size: 32px;
+  text-decoration: none;
+  color: #2a9d8f;
+  font-weight: bold;
+}
+nav a:hover,
+.pagina-selecionada {
+  padding: 5px 35px;
+  border-radius: 10px;
+  background-color: #2a9d8f;
+  color: #fff;
+}
+
+/* --------------------Corpo-------------------- */
+
+body {
+  background-color: #e9c46a;
+  margin: 0;
+}
+
+/* --------------------Rodapé-------------------- */
+
+footer {
+  width: 100%;
+  position: absolute;
+  border-top: solid 2px gray;
+  background-color: #fff;
+}
+footer p {
+  text-align: center;
+  font-weight: bold;
+}
+footer img {
+  width: 100px;
+}

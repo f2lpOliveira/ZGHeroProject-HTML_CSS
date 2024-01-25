@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .layout {
+        width: 80%;
+        margin: auto;
+        line-height: 0;
+        border-spacing: 20px 0px;
+        padding-top: 15px;
+      }
+      .section {
+        width: 80%;
+        padding-bottom: 30px;
+        line-height: 0;
+        border-spacing: 20px 0px;
+        background-color: #2a9d8f;
+        border-radius: 20px;
+        width: 45%;
+      }
+      .second-section {
+        width: 50%;
+      }
+      .layout h3 {
+        padding: 40px 0px 20px;
+        letter-spacing: 1px;
+      }
+      .layout a {
+        font-weight: bold;
+        color: #264653;
+        text-decoration: none;
+      }
+      .layout p {
+        margin-left: -350px;
+        padding-bottom: 20px;
+      }
+      pre {
+        font-family: "Caveat";
+        font-size: 28px;
+        line-height: 30px;
+        color: #fff;
+        margin-left: -65px;
+      }
+      span {
+        font-family: "Open Sans";
+        font-size: 36px;
+        line-height: 60px;
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+      }
+      #botao {
+        border: solid 1px #264653;
+        border-radius: 10px;
+        padding: 13px 15px;
+        font-weight: bold;
+        color: #fff;
+        margin-left: 15px;
+        background-color: #264653;
+      }
+      .layout img {
+        width: 93%;
+        height: 280px;
+        border-radius: 20px;
+      }
+    </style>
+    <title>Principal</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <table>
+          <tr>
+            <td rowspan="2">
+              <img
+                src="https://avatars.githubusercontent.com/u/106175578?v=4"
+                alt="Foto de Perfil" />
+            </td>
+            <td id="titulo-header"><h1>Fellipe Freire de Oliveira</h1></td>
+          </tr>
+          <tr>
+            <td id="subtitulo-header">
+              <p>&lsaquo;Software Engineer&rsaquo;</p>
+            </td>
+          </tr>
+        </table>
+      </header>
+      <nav>
+        <table>
+          <tr>
+            <td>
+              <a href="./index.html" class="pagina-selecionada">Principal</a>
+            </td>
+            <td><a href="./quemsou.html">Quem Sou</a></td>
+            <td><a href="./projetos.html">Projetos</a></td>
+            <td><a href="contato.html">Contato</a></td>
+          </tr>
+        </table>
+      </nav>
+      <table class="layout">
+        <tr>
+          <td class="section">
+            <pre>
+            Olá! Eu sou
+            <span>Fellipe Oliveira</span>
+            Eu crio aplicações web
+            modernas e atraentes.
+          </pre>
+            <a href="./contato.html" id="botao">Contate-me!</a>
+          </td>
+          <td class="second-section">
+            <img src="./img/pessoa.jpg" alt="Pessoa" />
+          </td>
+        </tr>
+      </table>
+      <table class="layout">
+        <tr>
+          <td><h3>O que você vai encontrar aqui:</h3></td>
+        </tr>
+        <tr>
+          <td><a href="./index.html">Principal</a></td>
+          <td>
+            <p>
+              Esta página em que você se encontra, contendo um resumo de todo o
+              site.
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td><a href="./quemsou.html">Quem Sou</a></td>
+          <td>
+            <p>
+              Uma minibio de minha vida profissional com um resumo de minhas
+              habilidades.
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td><a href="./projetos.html">Projetos</a></td>
+          <td>
+            <p>
+              Os trabalhos mais relevantes em que atuei como designer e/ou
+              desenvolvedor web.
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td><a href="./contato.html">Contato</a></td>
+          <td>
+            <p>
+              Os canais para você me encontrar em redes sociais, e-mail e
+              telefone.
+            </p>
+          </td>
+        </tr>
+      </table>
+      <footer>
+        <p style="margin-bottom: -10px; padding-top: 20px">
+          Copyright &copy; 2024
+        </p>
+        <p style="padding-bottom: 20px">
+          <img src="./img/ifes.png" alt="Logo" />
+        </p>
+      </footer>
+    </main>
+  </body>
+</html>
